@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		825732BF1CEF24FE00E73BEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825732BE1CEF24FE00E73BEA /* AppDelegate.swift */; };
+		825732C11CEF24FE00E73BEA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825732C01CEF24FE00E73BEA /* ViewController.swift */; };
+		825732C41CEF24FE00E73BEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 825732C21CEF24FE00E73BEA /* Main.storyboard */; };
+		825732C61CEF24FE00E73BEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 825732C51CEF24FE00E73BEA /* Assets.xcassets */; };
+		825732C91CEF24FE00E73BEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 825732C71CEF24FE00E73BEA /* LaunchScreen.storyboard */; };
+		825732D41CEF24FE00E73BEA /* VIPhotoViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825732D31CEF24FE00E73BEA /* VIPhotoViewTests.swift */; };
+		825732DF1CEF24FF00E73BEA /* VIPhotoViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825732DE1CEF24FF00E73BEA /* VIPhotoViewUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		825732D01CEF24FE00E73BEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 825732B31CEF24FE00E73BEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 825732BA1CEF24FE00E73BEA;
+			remoteInfo = VIPhotoView;
+		};
+		825732DB1CEF24FF00E73BEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 825732B31CEF24FE00E73BEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 825732BA1CEF24FE00E73BEA;
+			remoteInfo = VIPhotoView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		825732BB1CEF24FE00E73BEA /* VIPhotoView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VIPhotoView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		825732BE1CEF24FE00E73BEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		825732C01CEF24FE00E73BEA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		825732C31CEF24FE00E73BEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		825732C51CEF24FE00E73BEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		825732C81CEF24FE00E73BEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		825732CA1CEF24FE00E73BEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		825732CF1CEF24FE00E73BEA /* VIPhotoViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VIPhotoViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		825732D31CEF24FE00E73BEA /* VIPhotoViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIPhotoViewTests.swift; sourceTree = "<group>"; };
+		825732D51CEF24FE00E73BEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		825732DA1CEF24FF00E73BEA /* VIPhotoViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VIPhotoViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		825732DE1CEF24FF00E73BEA /* VIPhotoViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIPhotoViewUITests.swift; sourceTree = "<group>"; };
+		825732E01CEF24FF00E73BEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		825732B81CEF24FE00E73BEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		825732CC1CEF24FE00E73BEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		825732D71CEF24FF00E73BEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		825732B21CEF24FE00E73BEA = {
+			isa = PBXGroup;
+			children = (
+				825732BD1CEF24FE00E73BEA /* VIPhotoView */,
+				825732D21CEF24FE00E73BEA /* VIPhotoViewTests */,
+				825732DD1CEF24FF00E73BEA /* VIPhotoViewUITests */,
+				825732BC1CEF24FE00E73BEA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		825732BC1CEF24FE00E73BEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				825732BB1CEF24FE00E73BEA /* VIPhotoView.app */,
+				825732CF1CEF24FE00E73BEA /* VIPhotoViewTests.xctest */,
+				825732DA1CEF24FF00E73BEA /* VIPhotoViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		825732BD1CEF24FE00E73BEA /* VIPhotoView */ = {
+			isa = PBXGroup;
+			children = (
+				825732BE1CEF24FE00E73BEA /* AppDelegate.swift */,
+				825732C01CEF24FE00E73BEA /* ViewController.swift */,
+				825732C21CEF24FE00E73BEA /* Main.storyboard */,
+				825732C51CEF24FE00E73BEA /* Assets.xcassets */,
+				825732C71CEF24FE00E73BEA /* LaunchScreen.storyboard */,
+				825732CA1CEF24FE00E73BEA /* Info.plist */,
+			);
+			path = VIPhotoView;
+			sourceTree = "<group>";
+		};
+		825732D21CEF24FE00E73BEA /* VIPhotoViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				825732D31CEF24FE00E73BEA /* VIPhotoViewTests.swift */,
+				825732D51CEF24FE00E73BEA /* Info.plist */,
+			);
+			path = VIPhotoViewTests;
+			sourceTree = "<group>";
+		};
+		825732DD1CEF24FF00E73BEA /* VIPhotoViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				825732DE1CEF24FF00E73BEA /* VIPhotoViewUITests.swift */,
+				825732E01CEF24FF00E73BEA /* Info.plist */,
+			);
+			path = VIPhotoViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		825732BA1CEF24FE00E73BEA /* VIPhotoView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 825732E31CEF24FF00E73BEA /* Build configuration list for PBXNativeTarget "VIPhotoView" */;
+			buildPhases = (
+				825732B71CEF24FE00E73BEA /* Sources */,
+				825732B81CEF24FE00E73BEA /* Frameworks */,
+				825732B91CEF24FE00E73BEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VIPhotoView;
+			productName = VIPhotoView;
+			productReference = 825732BB1CEF24FE00E73BEA /* VIPhotoView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		825732CE1CEF24FE00E73BEA /* VIPhotoViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 825732E61CEF24FF00E73BEA /* Build configuration list for PBXNativeTarget "VIPhotoViewTests" */;
+			buildPhases = (
+				825732CB1CEF24FE00E73BEA /* Sources */,
+				825732CC1CEF24FE00E73BEA /* Frameworks */,
+				825732CD1CEF24FE00E73BEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				825732D11CEF24FE00E73BEA /* PBXTargetDependency */,
+			);
+			name = VIPhotoViewTests;
+			productName = VIPhotoViewTests;
+			productReference = 825732CF1CEF24FE00E73BEA /* VIPhotoViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		825732D91CEF24FF00E73BEA /* VIPhotoViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 825732E91CEF24FF00E73BEA /* Build configuration list for PBXNativeTarget "VIPhotoViewUITests" */;
+			buildPhases = (
+				825732D61CEF24FF00E73BEA /* Sources */,
+				825732D71CEF24FF00E73BEA /* Frameworks */,
+				825732D81CEF24FF00E73BEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				825732DC1CEF24FF00E73BEA /* PBXTargetDependency */,
+			);
+			name = VIPhotoViewUITests;
+			productName = VIPhotoViewUITests;
+			productReference = 825732DA1CEF24FF00E73BEA /* VIPhotoViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		825732B31CEF24FE00E73BEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = shifengming;
+				TargetAttributes = {
+					825732BA1CEF24FE00E73BEA = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					825732CE1CEF24FE00E73BEA = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 825732BA1CEF24FE00E73BEA;
+					};
+					825732D91CEF24FF00E73BEA = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 825732BA1CEF24FE00E73BEA;
+					};
+				};
+			};
+			buildConfigurationList = 825732B61CEF24FE00E73BEA /* Build configuration list for PBXProject "VIPhotoView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 825732B21CEF24FE00E73BEA;
+			productRefGroup = 825732BC1CEF24FE00E73BEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				825732BA1CEF24FE00E73BEA /* VIPhotoView */,
+				825732CE1CEF24FE00E73BEA /* VIPhotoViewTests */,
+				825732D91CEF24FF00E73BEA /* VIPhotoViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		825732B91CEF24FE00E73BEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				825732C91CEF24FE00E73BEA /* LaunchScreen.storyboard in Resources */,
+				825732C61CEF24FE00E73BEA /* Assets.xcassets in Resources */,
+				825732C41CEF24FE00E73BEA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		825732CD1CEF24FE00E73BEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		825732D81CEF24FF00E73BEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		825732B71CEF24FE00E73BEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				825732C11CEF24FE00E73BEA /* ViewController.swift in Sources */,
+				825732BF1CEF24FE00E73BEA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		825732CB1CEF24FE00E73BEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				825732D41CEF24FE00E73BEA /* VIPhotoViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		825732D61CEF24FF00E73BEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				825732DF1CEF24FF00E73BEA /* VIPhotoViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		825732D11CEF24FE00E73BEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 825732BA1CEF24FE00E73BEA /* VIPhotoView */;
+			targetProxy = 825732D01CEF24FE00E73BEA /* PBXContainerItemProxy */;
+		};
+		825732DC1CEF24FF00E73BEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 825732BA1CEF24FE00E73BEA /* VIPhotoView */;
+			targetProxy = 825732DB1CEF24FF00E73BEA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		825732C21CEF24FE00E73BEA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				825732C31CEF24FE00E73BEA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		825732C71CEF24FE00E73BEA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				825732C81CEF24FE00E73BEA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		825732E11CEF24FF00E73BEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		825732E21CEF24FF00E73BEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		825732E41CEF24FF00E73BEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VIPhotoView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sfm.VIPhotoView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		825732E51CEF24FF00E73BEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VIPhotoView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sfm.VIPhotoView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		825732E71CEF24FF00E73BEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VIPhotoViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sfm.VIPhotoViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VIPhotoView.app/VIPhotoView";
+			};
+			name = Debug;
+		};
+		825732E81CEF24FF00E73BEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VIPhotoViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sfm.VIPhotoViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VIPhotoView.app/VIPhotoView";
+			};
+			name = Release;
+		};
+		825732EA1CEF24FF00E73BEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VIPhotoViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sfm.VIPhotoViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VIPhotoView;
+			};
+			name = Debug;
+		};
+		825732EB1CEF24FF00E73BEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VIPhotoViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sfm.VIPhotoViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VIPhotoView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		825732B61CEF24FE00E73BEA /* Build configuration list for PBXProject "VIPhotoView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				825732E11CEF24FF00E73BEA /* Debug */,
+				825732E21CEF24FF00E73BEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		825732E31CEF24FF00E73BEA /* Build configuration list for PBXNativeTarget "VIPhotoView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				825732E41CEF24FF00E73BEA /* Debug */,
+				825732E51CEF24FF00E73BEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		825732E61CEF24FF00E73BEA /* Build configuration list for PBXNativeTarget "VIPhotoViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				825732E71CEF24FF00E73BEA /* Debug */,
+				825732E81CEF24FF00E73BEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		825732E91CEF24FF00E73BEA /* Build configuration list for PBXNativeTarget "VIPhotoViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				825732EA1CEF24FF00E73BEA /* Debug */,
+				825732EB1CEF24FF00E73BEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 825732B31CEF24FE00E73BEA /* Project object */;
+}
