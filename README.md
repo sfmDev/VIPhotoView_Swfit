@@ -1,3 +1,3 @@
 # VIPhotoView_Swfit
-VIPhotoView for swift 
+VIPhotoView for swift </br>
 simple for use
