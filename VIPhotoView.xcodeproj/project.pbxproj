@@ -14,6 +14,10 @@
 		825732C91CEF24FE00E73BEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 825732C71CEF24FE00E73BEA /* LaunchScreen.storyboard */; };
 		825732D41CEF24FE00E73BEA /* VIPhotoViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825732D31CEF24FE00E73BEA /* VIPhotoViewTests.swift */; };
 		825732DF1CEF24FF00E73BEA /* VIPhotoViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825732DE1CEF24FF00E73BEA /* VIPhotoViewUITests.swift */; };
+		825732ED1CEF252C00E73BEA /* VIPhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825732EC1CEF252C00E73BEA /* VIPhotoView.swift */; };
+		829425CF1CF0290900495BF2 /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 829425CE1CF0290900495BF2 /* Kingfisher.framework */; };
+		829425D11CF02AC400495BF2 /* 5.pic_hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 829425D01CF02AC400495BF2 /* 5.pic_hd.png */; };
+		A09EDC586B07D2164C335432 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75B1EC823CDF04BD678C099E /* Pods.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		75B1EC823CDF04BD678C099E /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		825732BB1CEF24FE00E73BEA /* VIPhotoView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VIPhotoView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		825732BE1CEF24FE00E73BEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		825732C01CEF24FE00E73BEA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +52,11 @@
 		825732DA1CEF24FF00E73BEA /* VIPhotoViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VIPhotoViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		825732DE1CEF24FF00E73BEA /* VIPhotoViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIPhotoViewUITests.swift; sourceTree = "<group>"; };
 		825732E01CEF24FF00E73BEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		825732EC1CEF252C00E73BEA /* VIPhotoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VIPhotoView.swift; sourceTree = "<group>"; };
+		829425CE1CF0290900495BF2 /* Kingfisher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kingfisher.framework; path = "../../Library/Developer/Xcode/DerivedData/VIPhotoView-bgmpertkormzhpcqkygkbxukawih/Build/Products/Debug-iphonesimulator/Kingfisher.framework"; sourceTree = "<group>"; };
+		829425D01CF02AC400495BF2 /* 5.pic_hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.pic_hd.png; sourceTree = "<group>"; };
+		E5451EB103825C705FFCD3F7 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		F001A6BE903A99D58EBB201A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +64,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				829425CF1CF0290900495BF2 /* Kingfisher.framework in Frameworks */,
+				A09EDC586B07D2164C335432 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +86,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3AEEF7C664B0E6C8E88E89C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				829425CE1CF0290900495BF2 /* Kingfisher.framework */,
+				75B1EC823CDF04BD678C099E /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		825732B21CEF24FE00E73BEA = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +102,8 @@
 				825732D21CEF24FE00E73BEA /* VIPhotoViewTests */,
 				825732DD1CEF24FF00E73BEA /* VIPhotoViewUITests */,
 				825732BC1CEF24FE00E73BEA /* Products */,
+				D823CB011E87ACD7D97FE645 /* Pods */,
+				3AEEF7C664B0E6C8E88E89C3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,7 +122,9 @@
 			children = (
 				825732BE1CEF24FE00E73BEA /* AppDelegate.swift */,
 				825732C01CEF24FE00E73BEA /* ViewController.swift */,
+				825732EC1CEF252C00E73BEA /* VIPhotoView.swift */,
 				825732C21CEF24FE00E73BEA /* Main.storyboard */,
+				829425D01CF02AC400495BF2 /* 5.pic_hd.png */,
 				825732C51CEF24FE00E73BEA /* Assets.xcassets */,
 				825732C71CEF24FE00E73BEA /* LaunchScreen.storyboard */,
 				825732CA1CEF24FE00E73BEA /* Info.plist */,
@@ -125,6 +150,15 @@
 			path = VIPhotoViewUITests;
 			sourceTree = "<group>";
 		};
+		D823CB011E87ACD7D97FE645 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F001A6BE903A99D58EBB201A /* Pods.debug.xcconfig */,
+				E5451EB103825C705FFCD3F7 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +166,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 825732E31CEF24FF00E73BEA /* Build configuration list for PBXNativeTarget "VIPhotoView" */;
 			buildPhases = (
+				483816C665B751B3387B3AF0 /* Check Pods Manifest.lock */,
 				825732B71CEF24FE00E73BEA /* Sources */,
 				825732B81CEF24FE00E73BEA /* Frameworks */,
 				825732B91CEF24FE00E73BEA /* Resources */,
+				3B433C4067D3D70DEB4F51AB /* Embed Pods Frameworks */,
+				BE23136F563FD34E0A74222A /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -230,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				825732C91CEF24FE00E73BEA /* LaunchScreen.storyboard in Resources */,
+				829425D11CF02AC400495BF2 /* 5.pic_hd.png in Resources */,
 				825732C61CEF24FE00E73BEA /* Assets.xcassets in Resources */,
 				825732C41CEF24FE00E73BEA /* Main.storyboard in Resources */,
 			);
@@ -251,11 +289,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3B433C4067D3D70DEB4F51AB /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		483816C665B751B3387B3AF0 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BE23136F563FD34E0A74222A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		825732B71CEF24FE00E73BEA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				825732ED1CEF252C00E73BEA /* VIPhotoView.swift in Sources */,
 				825732C11CEF24FE00E73BEA /* ViewController.swift in Sources */,
 				825732BF1CEF24FE00E73BEA /* AppDelegate.swift in Sources */,
 			);
@@ -397,6 +484,7 @@
 		};
 		825732E41CEF24FF00E73BEA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F001A6BE903A99D58EBB201A /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = VIPhotoView/Info.plist;
@@ -408,6 +496,7 @@
 		};
 		825732E51CEF24FF00E73BEA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5451EB103825C705FFCD3F7 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = VIPhotoView/Info.plist;
@@ -482,6 +571,7 @@
 				825732E51CEF24FF00E73BEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		825732E61CEF24FF00E73BEA /* Build configuration list for PBXNativeTarget "VIPhotoViewTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +580,7 @@
 				825732E81CEF24FF00E73BEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		825732E91CEF24FF00E73BEA /* Build configuration list for PBXNativeTarget "VIPhotoViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +589,7 @@
 				825732EB1CEF24FF00E73BEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
